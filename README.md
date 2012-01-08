@@ -9,11 +9,11 @@ In Textmate select text press Cmd+Shift+C, then go to Keynote and paste with Cmd
 
 ##Installation
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/bblimke/copy-with-style-tmbundle.git "Copy with Style.tmbundle"
+	mkdir -p ~/Library/Application\ Support/Avian/Pristine\ Copy
+	cd ~/Library/Application\ Support/Avian/Pristine\ Copy/
+	git clone -b textmate-2 https://github.com/sandropaganotti/copy-with-style-tmbundle.git "Copy with Style.tmbundle"
     
-In Textmate select Bundles->Bundle Editor->Reload Bundles
+To make this work remember to switch Textmate 2 chosen theme at least once in order to make the necessary preference be saved in .plist file (it's still in alpha :).
 
 ##Credits
 
@@ -21,4 +21,4 @@ Command code was adopted from example presented in Josh Goebel's [blog post]( ht
 
 ## Author
 
-Bartosz Blimke
+Bartosz Blimke & Sandro Paganotti
